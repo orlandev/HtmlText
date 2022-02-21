@@ -15,8 +15,8 @@ ext {
 apply from: '../_publish.gradle'
 
 android {
-    compileSdk 30
-    buildToolsVersion "30.0.3"
+    compileSdk 32
+    buildToolsVersion "32.0.0"
 
     defaultConfig {
         minSdk 21
@@ -48,5 +48,5 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    implementation "androidx.core:core-ktx:1.6.0"
+    implementation "androidx.core:core-ktx:1.7.0"
 }
